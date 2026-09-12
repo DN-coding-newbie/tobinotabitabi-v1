@@ -1,7 +1,7 @@
 import { siteConfig } from "@/data/config";
 
 export default function SocialWidget() {
-  const { facebook, instagram, youtube } = siteConfig.social;
+  const { facebook, instagram, linkedin, youtube } = siteConfig.social;
 
   return (
     <div className="widget social">
@@ -15,6 +15,11 @@ export default function SocialWidget() {
         {instagram && (
           <a href={instagram} target="_blank" rel="noopener noreferrer" title="Instagram">
             IG
+          </a>
+        )}
+        {linkedin && (
+          <a href={linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            IN
           </a>
         )}
         {youtube && (

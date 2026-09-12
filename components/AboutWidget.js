@@ -4,7 +4,9 @@ export default function AboutWidget() {
   return (
     <div className="widget about">
       <h3>Về mình</h3>
-      <div className="about-photo">[Ảnh chân dung]</div>
+      <div className="about-photo">
+        <img src="/images/profile/avatar-blog.jfif" alt="Tobi" />
+        </div>
       <strong>
         {siteConfig.author} / {siteConfig.authorShort}
       </strong>
