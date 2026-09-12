@@ -5,7 +5,7 @@ export default function SocialWidget() {
 
   return (
     <div className="widget social">
-      <h3>Kết nối</h3>
+      <h3>SOCIALS</h3>
       <div className="social-row">
         {facebook && (
           <a href={facebook} target="_blank" rel="noopener noreferrer" title="Facebook">

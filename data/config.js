@@ -4,7 +4,7 @@
 
 export const siteConfig = {
   name: "Tobinotabi",
-  tagline: "Notes from a life still in progress.",
+  tagline: "Notes from a life still in progress✨",
   domain: "tobinotabi.com",
   author: "Tấn Tịnh",
   authorShort: "Tobi",
@@ -15,7 +15,7 @@ export const siteConfig = {
 
   // Đoạn giới thiệu bản thân, hiển thị trong widget "Về mình".
   // Mỗi đoạn cách nhau một dòng trống sẽ tự động xuống dòng khi hiển thị.
-  aboutText: `Chào mọi người, mình là Tấn Tịnh - Tobi là tên tiếng Nhật của mình (cũng là tên hay đặt cho cún:3)
+  aboutText: `Chào mọi người, mình là Tấn Tịnh - Tobi là tên Nhật của mình (cũng là tên hay đặt cho cún bên Nhật:3)
 
 
 Mình vẫn đang loay hoay với cuộc sống tuổi 20 - và nói thật thì, mình rất vui vì điều đó.

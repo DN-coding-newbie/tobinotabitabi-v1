@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="brand-block">
-        <div className="brand-avatar">[Avatar]</div>
+        <div className="brand-avatar"><img src="/images/profile/brand-avatar.png"/></div>
         <h1>
           <Link href="/">{siteConfig.name}</Link>
         </h1>

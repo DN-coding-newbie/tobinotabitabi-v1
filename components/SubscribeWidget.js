@@ -10,8 +10,8 @@ export default function SubscribeWidget() {
 
   return (
     <div className="widget subscribe">
-      <h3>Đăng ký nhận bài</h3>
-      <p>Want to hear from me when I publish something new?</p>
+      <h3>SUBSCRIBE</h3>
+      <p>Nhận thông báo khi mình có blog mới nhé!</p>
       <form className="subscribe-form" onSubmit={handleSubmit}>
         <input type="email" placeholder="Your email address" required />
         <button type="submit">Đăng ký</button>
