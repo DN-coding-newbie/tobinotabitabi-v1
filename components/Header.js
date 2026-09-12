@@ -7,6 +7,7 @@ import { siteConfig } from "@/data/config";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [blogOpen, setBlogOpen] = useState(false);
 
   return (
     <header className="site-header">
@@ -32,9 +33,38 @@ export default function Header() {
 
       <nav id="main-nav" className={`main-nav ${menuOpen ? "is-open" : ""}`}>
         {navigation.map((item) => (
-          <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
-            {item.label}
-          </Link>
+          <div key={item.href} className={item.dropdown ? "nav-item" : ""}>
+            <Link
+              href={item.href}
+              onClick={(e) => {
+                if (item.dropdown) {
+                  e.preventDefault();
+                  setBlogOpen((open) => !open);
+                } else {
+                  setMenuOpen(false);
+                }
+              }}
+            >
+              {item.label}
+            </Link>
+
+            {item.dropdown && blogOpen && (
+              <div className="nav-dropdown">
+                {item.dropdown.map((category) => (
+                  <Link
+                    key={category.slug}
+                    href={`/category/${category.slug}`}
+                    onClick={() => {
+                      setBlogOpen(false);
+                      setMenuOpen(false);
+                    }}
+                  >
+                    {category.name}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
         ))}
       </nav>
     </header>

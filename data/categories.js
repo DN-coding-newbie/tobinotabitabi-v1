@@ -6,8 +6,8 @@
 
 export const categories = [
   { name: "My20s", slug: "my20s" },
-  { name: "Nhật Bản", slug: "nhat-ban", visible: false },
-  { name: "Đà Nẵng", slug: "da-nang" },
+  { name: "Nhật Bản", slug: "nhat-ban" },
+  { name: "Đà Nẵng", slug: "da-nang", visible: false },
   { name: "Đại học", slug: "dai-hoc" },
   { name: "Nấu ăn", slug: "nau-an", visible: false},
   { name: "Mạng xã hội", slug: "mang-xa-hoi", visible: false },
