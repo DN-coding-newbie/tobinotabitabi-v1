@@ -17,13 +17,18 @@ export const siteConfig = {
   // Mỗi đoạn cách nhau một dòng trống sẽ tự động xuống dòng khi hiển thị.
   aboutText: `Chào mọi người, mình là Tấn Tịnh - Tobi là tên tiếng Nhật của mình (cũng là tên hay đặt cho cún:3)
 
+
 Mình vẫn đang loay hoay với cuộc sống tuổi 20 - và nói thật thì, mình rất vui vì điều đó.
+
 
 Mình có tính hay tò mò, hay thử những điều mới và từ đó tự nhìn lại bản thân sau mỗi trải nghiệm, mỗi bài học. Chính vì vậy, mình quyết định tạo blog này để ghi lại những nơi mình đã đi qua, những điều mình học được và cả những suy nghĩ linh tinh trong cuộc sống.
 
+
 Mình không phải là người hay viết, nhưng hy vọng việc bắt đầu blog này sẽ cho mình thêm một lý do để quan sát nhiều hơn, trải nghiệm nhiều hơn và viết ra những điều mình nghĩ một cách hay ho, vì mình viết cho người khác đọc nữa nè.
 
+
 Thông qua blog này, mình hy vọng có thể học được điều gì đó từ mọi người, và biết đâu, mọi người cũng có thể tìm thấy một chút hình ảnh của chính mình ở tuổi 20 qua hành trình của Tobi.
+
 
 Cảm ơn mọi người đã ghé qua Blog của mình, Have a nice day~`,
 
