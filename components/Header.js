@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="brand-block">
-        <div className="brand-avatar">[TOBINOTABI]</div>
+        <div className="brand-avatar">[Avatar]</div>
         <h1>
           <Link href="/">{siteConfig.name}</Link>
         </h1>
@@ -31,9 +31,6 @@ export default function Header() {
       </button>
 
       <nav id="main-nav" className={`main-nav ${menuOpen ? "is-open" : ""}`}>
-        <Link href="/" onClick={() => setMenuOpen(false)}>
-          Trang chủ
-        </Link>
         {navigation.map((item) => (
           <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
             {item.label}
