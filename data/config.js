@@ -11,7 +11,7 @@ export const siteConfig = {
 
   // Đoạn giới thiệu ngắn hiển thị ở đầu trang chủ.
   intro:
-    "[Đoạn giới thiệu ngắn về blog — bạn viết gì ở đây, giọng văn ra sao, vì sao blog này tồn tại...]",
+    "Chúc mọi người đọc blog vui vẻ, hẹn mọi người ở những bài viết tiếp theo nhé~",
 
   // Đoạn giới thiệu bản thân, hiển thị trong widget "Về mình".
   // Mỗi đoạn cách nhau một dòng trống sẽ tự động xuống dòng khi hiển thị.

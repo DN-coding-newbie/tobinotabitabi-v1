@@ -3,7 +3,7 @@ import { siteConfig } from "@/data/config";
 export default function AboutWidget() {
   return (
     <div className="widget about">
-      <h3>Về mình</h3>
+      <h3>About me</h3>
       <div className="about-photo">
         <img src="/images/profile/avatar-blog.jfif" alt="Tobi" />
         </div>

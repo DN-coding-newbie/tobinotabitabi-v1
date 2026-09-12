@@ -5,7 +5,7 @@ export default function CategoriesWidget() {
   const categories = getCategoriesWithCount();
   return (
     <div className="widget categories">
-      <h3>Chuyên mục</h3>
+      <h3>Categories</h3>
       <ul className="list-plain">
         {categories.map((c) => (
           <li key={c.slug}>
