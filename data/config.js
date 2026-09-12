@@ -3,9 +3,9 @@
 // chỉ cần sửa trong file này, không cần đụng vào component nào.
 
 export const siteConfig = {
-  name: "Tobinotabitabi",
+  name: "Tobinotabi",
   tagline: "Notes from a life still in progress.",
-  domain: "tobinotabitabi.com",
+  domain: "tobinotabi.com",
   author: "Tấn Tịnh",
   authorShort: "Tobi",
 
@@ -15,21 +15,17 @@ export const siteConfig = {
 
   // Đoạn giới thiệu bản thân, hiển thị trong widget "Về mình".
   // Mỗi đoạn cách nhau một dòng trống sẽ tự động xuống dòng khi hiển thị.
-  aboutText: `Chào mọi người, mình là Tấn Tịnh.
-
-Mình vẫn đang loay hoay với cuộc sống tuổi 20 của mình, và nói thật, mình khá thích điều đó. Có lẽ vì những điều mình chưa biết luôn khiến mình tò mò — về thế giới, về những người mình gặp, và cả về chính bản thân mình.
-
-Mình nghĩ việc vẫn còn tò mò, vẫn còn muốn thử những điều mới và có thể thay đổi một chút sau mỗi trải nghiệm là một trong những điều may mắn nhất của tuổi trẻ.
-
-Vì vậy, mình tạo blog này để ghi lại một vài câu chuyện, những điều mình học được, những nơi mình đã đi qua và cả những suy nghĩ rất linh tinh trong cuộc sống.
-
-Hy vọng dù đang ở độ tuổi nào, mọi người vẫn luôn giữ được một chút tò mò với thế giới đang thay đổi từng ngày.
-
-Và nếu có điều gì mình có thể học được từ bạn, mình sẽ rất vui.`,
+  aboutText: `Chào mọi người, mình là Tấn Tịnh - Tobi là tên tiếng Nhật của mình (cũng là tên hay đặt cho cún:3)
+Mình vẫn đang loay hoay với cuộc sống tuổi 20 - và nói thật thì, mình rất vui vì điều đó.
+Mình có tính hay tò mò, hay thử những điều mới và từ đó tự nhìn lại bản thân sau mỗi trải nghiệm, mỗi bài học. Chính vì vậy, mình quyết định tạo blog này để ghi lại những nơi mình đã đi qua, những điều mình học được và cả những suy nghĩ linh tinh trong cuộc sống.
+Mình không phải là người hay viết, nhưng hy vọng việc bắt đầu blog này sẽ cho mình thêm một lý do để quan sát nhiều hơn, trải nghiệm nhiều hơn và viết ra những điều mình nghĩ một cách hay ho, vì mình viết cho người khác đọc nữa nè.
+Thông qua blog này, mình hy vọng có thể học được điều gì đó từ mọi người, và biết đâu, mọi người cũng có thể tìm thấy một chút hình ảnh của chính mình ở tuổi 20 qua hành trình của Tobi.
+Cảm ơn mọi người đã ghé qua Blog của mình, Have a nice day~`,
 
   social: {
     facebook: "https://www.facebook.com/nguyen.tan.tinh.144526",
     instagram: "https://www.instagram.com/tinh.1611/",
+    linkedin: "https://www.linkedin.com/in/tấn-tịnh-0a8b4b21a/",
     // Chưa có link YouTube thật -> để null thì icon sẽ tự ẩn.
     // Khi có link thật, chỉ cần thay null bằng URL.
     youtube: null,
